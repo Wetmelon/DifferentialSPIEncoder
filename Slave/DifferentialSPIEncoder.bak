@@ -181,7 +181,6 @@ Wire Wire Line
 	3200 4700 3300 4700
 Connection ~ 3300 4700
 NoConn ~ 4000 4150
-NoConn ~ 3500 3650
 $Comp
 L power:+3.3V #PWR04
 U 1 1 5CF207D5
@@ -395,7 +394,7 @@ Wire Wire Line
 	2900 3450 3400 3450
 Connection ~ 3400 3450
 Wire Wire Line
-	3400 3450 3400 3650
+	3400 3450 3400 3600
 Wire Wire Line
 	11250 5350 11400 5350
 Wire Wire Line
@@ -802,4 +801,11 @@ $EndComp
 Wire Wire Line
 	2950 6550 2950 6450
 Connection ~ 2950 6550
+Wire Wire Line
+	3500 3650 3500 3600
+Wire Wire Line
+	3500 3600 3400 3600
+Connection ~ 3400 3600
+Wire Wire Line
+	3400 3600 3400 3650
 $EndSCHEMATC
