@@ -1,4 +1,4 @@
-16363728989629256
+16365305562018256
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -36880,7 +36880,7 @@ RJ45_Amphenol_RJHSE5380
 Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
 RJ45 8p8c ethernet cat5
 0
-10
+12
 9
 Connector_RJ
 RJ45_Amphenol_RJHSE5380-08
@@ -50629,6 +50629,13 @@ Mounting Hole 8.4mm, M8
 mounting hole 8.4mm m8
 0
 9
+1
+MountingHole
+MountingHole_MINE
+Mounting Hole 2.2mm, M2
+mounting hole 2.2mm m2
+0
+1
 1
 NetTie
 NetTie-2_SMD_Pad0.5mm
