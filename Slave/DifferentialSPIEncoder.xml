@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/owhite/DifferentialSPIEncoder/Slave/DifferentialSPIEncoder.sch</source>
+    <date>Thursday, November 07, 2019 at 09:30:32 AM</date>
+    <tool>Eeschema (5.1.4-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SPI DIfferential Encoder</title>
+        <company>Wetmelon Enterprises</company>
+        <rev>3</rev>
+        <date>2019-11-06</date>
+        <source>DifferentialSPIEncoder.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>8P8C_Shielded</value>
+      <footprint>Connector_RJ:RJ45_Amphenol_RJHSE5380</footprint>
+      <libsource lib="Connector" part="8P8C_Shielded" description="RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF58D87</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DC11060</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/AA0402FR-071KL?qs=sGAEpiMZZMu61qfTUdNhG13ofUK0W8CzKiNWDYwkGfJyivaq%252BN2HvQ%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">AA0402FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF9BF0B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0603C106M8PACTU?qs=sGAEpiMZZMs0AnBnWHyRQN7%2FAA2D2lPPIg9cQoSSQ7hJqJcBmJxSHg%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0603C106M8PACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DB342B0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>2.2pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0402C229C8GACTU?qs=sGAEpiMZZMs0AnBnWHyRQG8EQLxJcrqdhsIEzL7CC1E%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0402C229C8GACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D002BC5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/AA0402FR-071KL?qs=sGAEpiMZZMu61qfTUdNhG13ofUK0W8CzKiNWDYwkGfJyivaq%252BN2HvQ%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">AA0402FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D002BBE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0402C229C8GACTU?qs=sGAEpiMZZMs0AnBnWHyRQG8EQLxJcrqdhsIEzL7CC1E%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0402C229C8GACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFBE1AB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/AA0402FR-071KL?qs=sGAEpiMZZMu61qfTUdNhG13ofUK0W8CzKiNWDYwkGfJyivaq%252BN2HvQ%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">AA0402FR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFBE1A4</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>2.2pF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0402C229C8GACTU?qs=sGAEpiMZZMs0AnBnWHyRQG8EQLxJcrqdhsIEzL7CC1E%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0402C229C8GACTU</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF9C0C3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/RC0402JR-07120RL?qs=%2Fha2pyFadugNN0LzwXn2qD75mwscyjCoc1ibtoJbkW79qqZu55PgkA%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">RC0402JR-07120RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF7A8D0</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/RC0402JR-07120RL?qs=%2Fha2pyFadugNN0LzwXn2qD75mwscyjCoc1ibtoJbkW79qqZu55PgkA%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">RC0402JR-07120RL</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF658A2</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0402C104K8PAC7411?qs=%2Fha2pyFaduhn1xVgvtRYdt8w%2FWG8QSZyAXLF3Y%252BHgrPuAI7Q4NWliw%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0402C104K8PAC7411</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF602F4</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0402C104K8PAC7411?qs=%2Fha2pyFaduhn1xVgvtRYdt8w%2FWG8QSZyAXLF3Y%252BHgrPuAI7Q4NWliw%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0402C104K8PAC7411</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5283E</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0402C104K8PAC7411?qs=%2Fha2pyFaduhn1xVgvtRYdt8w%2FWG8QSZyAXLF3Y%252BHgrPuAI7Q4NWliw%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0402C104K8PAC7411</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF2C235</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/RT0402DRE0710KL?qs=%2Fha2pyFaduipJKDhjj1XF5NORUdiSKY0lRwDYJMwHgLnMMZXGlX5ww%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">RT0402DRE0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD34DB</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/RT0402DRE0710KL?qs=%2Fha2pyFaduipJKDhjj1XF5NORUdiSKY0lRwDYJMwHgLnMMZXGlX5ww%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">RT0402DRE0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFAE8D4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/RT0402DRE0710KL?qs=%2Fha2pyFaduipJKDhjj1XF5NORUdiSKY0lRwDYJMwHgLnMMZXGlX5ww%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">RT0402DRE0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4B10D</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/RT0402DRE0710KL?qs=%2Fha2pyFaduipJKDhjj1XF5NORUdiSKY0lRwDYJMwHgLnMMZXGlX5ww%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">RT0402DRE0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF3A289</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Yageo/RT0402DRE0710KL?qs=%2Fha2pyFaduipJKDhjj1XF5NORUdiSKY0lRwDYJMwHgLnMMZXGlX5ww%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">Yageo</field>
+        <field name="MFN">RT0402DRE0710KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF1A1BE</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>MAX485E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D</datasheet>
+      <fields>
+        <field name="MFN">MAX485ESA+</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX485E" description="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF18942</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>MAX485E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D</datasheet>
+      <fields>
+        <field name="MFN">MAX485ESA+</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX485E" description="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF188BA</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>MAX485E</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D</datasheet>
+      <fields>
+        <field name="MFN">MAX485ESA+</field>
+      </fields>
+      <libsource lib="Interface_UART" part="MAX485E" description="Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF18800</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>AS5048A</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/ams/AS5048A-HTSP-500?qs=sGAEpiMZZMsDsvR9Yj%2Fex3rI8ueL6AI9</datasheet>
+      <fields>
+        <field name="MANUFACTURER">ams</field>
+        <field name="MFN">AS5048A-HTSP-500</field>
+      </fields>
+      <libsource lib="Sensor_Magnetic" part="AS5048A" description="Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF17990</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/KEMET/C0402C104K8PAC7411?qs=%2Fha2pyFaduhn1xVgvtRYdt8w%2FWG8QSZyAXLF3Y%252BHgrPuAI7Q4NWliw%3D%3D</datasheet>
+      <fields>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="MFN">C0402C104K8PAC7411</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF45BC8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="8P8C_Shielded">
+      <aliases>
+        <alias>RJ31_Shielded</alias>
+        <alias>RJ32_Shielded</alias>
+        <alias>RJ33_Shielded</alias>
+        <alias>RJ34_Shielded</alias>
+        <alias>RJ35_Shielded</alias>
+        <alias>RJ41_Shielded</alias>
+        <alias>RJ45_Shielded</alias>
+        <alias>RJ49_Shielded</alias>
+        <alias>RJ61_Shielded</alias>
+      </aliases>
+      <description>RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">8P8C_Shielded</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="SH" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_UART" part="MAX481E">
+      <aliases>
+        <alias>MAX483E</alias>
+        <alias>MAX485E</alias>
+        <alias>MAX487E</alias>
+        <alias>MAX1487E</alias>
+        <alias>MAX3485</alias>
+        <alias>MAX3483</alias>
+        <alias>MAX3486</alias>
+      </aliases>
+      <description>Half duplex RS-485/RS-422, 2.5 Mbps, ±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive kapacitity, DIP-8 and SOIC-8</description>
+      <docs>https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX481E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~RE" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="BiDi"/>
+        <pin num="7" name="B" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Magnetic" part="AS5048A">
+      <description>Magnetic position sensor, 14-bit, PWM output, SPI Interface, TSSOP-14</description>
+      <docs>https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS5048A</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CSn" type="input"/>
+        <pin num="2" name="CLK" type="input"/>
+        <pin num="3" name="MISO" type="output"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="TEST" type="passive"/>
+        <pin num="6" name="TEST" type="passive"/>
+        <pin num="7" name="TEST" type="passive"/>
+        <pin num="8" name="TEST" type="passive"/>
+        <pin num="9" name="TEST" type="passive"/>
+        <pin num="10" name="TEST" type="passive"/>
+        <pin num="11" name="VDD5V" type="power_in"/>
+        <pin num="12" name="VDD3V" type="power_in"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="PWM" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Interface_UART">
+      <uri>/Library/Application Support/kicad/library/Interface_UART.lib</uri>
+    </library>
+    <library logical="Sensor_Magnetic">
+      <uri>/Library/Application Support/kicad/library/Sensor_Magnetic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CS_+">
+      <node ref="U3" pin="6"/>
+      <node ref="R9" pin="2"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="2" name="/CS_-">
+      <node ref="U3" pin="7"/>
+      <node ref="R9" pin="1"/>
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="3" name="/CLK_+">
+      <node ref="U5" pin="6"/>
+      <node ref="J2" pin="6"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="4" name="/MISO_+">
+      <node ref="U4" pin="6"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="5" name="/MISO_-">
+      <node ref="J2" pin="4"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="6" name="/CLK_-">
+      <node ref="R10" pin="1"/>
+      <node ref="U5" pin="7"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="7" name="+5V">
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="8"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J2" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U5" pin="5"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="9" name="Net-(J2-PadSH)">
+      <node ref="J2" pin="SH"/>
+    </net>
+    <net code="10" name="Net-(R2-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="11" name="Net-(R3-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C6-Pad1)">
+      <node ref="U4" pin="4"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="13" name="CLK">
+      <node ref="C5" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="14" name="~CSn">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J1" pin="4"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="15" name="MISO">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="16" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="17" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="18" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="19" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="20" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="22" name="Net-(R7-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="23" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="24" name="V3cap">
+      <node ref="U2" pin="12"/>
+      <node ref="C1" pin="1"/>
+    </net>
+  </nets>
+</export>
