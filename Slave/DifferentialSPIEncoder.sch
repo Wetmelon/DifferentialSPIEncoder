@@ -1007,9 +1007,53 @@ U 1 1 5DE9B749
 P 7815 3175
 F 0 "J1" H 7865 3492 50  0000 C CNN
 F 1 "Debug" H 7865 3401 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7815 3175 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7815 3175 50  0001 C CNN
 F 3 "~" H 7815 3175 50  0001 C CNN
 	1    7815 3175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DE5C6FB
+P 6400 6550
+F 0 "H1" H 6500 6596 50  0000 L CNN
+F 1 "MountingHole" H 6500 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6400 6550 50  0001 C CNN
+F 3 "~" H 6400 6550 50  0001 C CNN
+	1    6400 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DE5CD83
+P 6600 6550
+F 0 "H2" H 6700 6596 50  0000 L CNN
+F 1 "MountingHole" H 6700 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6600 6550 50  0001 C CNN
+F 3 "~" H 6600 6550 50  0001 C CNN
+	1    6600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DE5CFA6
+P 6800 6550
+F 0 "H3" H 6900 6596 50  0000 L CNN
+F 1 "MountingHole" H 6900 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6800 6550 50  0001 C CNN
+F 3 "~" H 6800 6550 50  0001 C CNN
+	1    6800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DE5D570
+P 7000 6550
+F 0 "H4" H 7100 6596 50  0000 L CNN
+F 1 "MountingHole" H 7100 6505 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 7000 6550 50  0001 C CNN
+F 3 "~" H 7000 6550 50  0001 C CNN
+	1    7000 6550
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
