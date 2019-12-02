@@ -1007,7 +1007,7 @@ U 1 1 5DE5C6FB
 P 6400 6550
 F 0 "H1" H 6500 6596 50  0000 L CNN
 F 1 "MountingHole" H 6500 6505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6400 6550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 6400 6550 50  0001 C CNN
 F 3 "~" H 6400 6550 50  0001 C CNN
 	1    6400 6550
 	1    0    0    -1  
@@ -1018,7 +1018,7 @@ U 1 1 5DE5CD83
 P 6600 6550
 F 0 "H2" H 6700 6596 50  0000 L CNN
 F 1 "MountingHole" H 6700 6505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H 6600 6550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 6600 6550 50  0001 C CNN
 F 3 "~" H 6600 6550 50  0001 C CNN
 	1    6600 6550
 	1    0    0    -1  
