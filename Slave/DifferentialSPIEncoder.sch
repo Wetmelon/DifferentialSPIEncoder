@@ -1002,17 +1002,6 @@ Connection ~ 5200 4150
 Text Label 6500 3450 2    50   ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J1
-U 1 1 5DE9B749
-P 7815 3175
-F 0 "J1" H 7865 3492 50  0000 C CNN
-F 1 "Debug" H 7865 3401 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 7815 3175 50  0001 C CNN
-F 3 "~" H 7815 3175 50  0001 C CNN
-	1    7815 3175
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole H1
 U 1 1 5DE5C6FB
 P 6400 6550
@@ -1054,6 +1043,17 @@ F 1 "MountingHole" H 7100 6505 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 7000 6550 50  0001 C CNN
 F 3 "~" H 7000 6550 50  0001 C CNN
 	1    7000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 5DE9B749
+P 7815 3175
+F 0 "J1" H 7865 3492 50  0000 C CNN
+F 1 "Debug" H 7865 3401 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7815 3175 50  0001 C CNN
+F 3 "~" H 7815 3175 50  0001 C CNN
+	1    7815 3175
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
