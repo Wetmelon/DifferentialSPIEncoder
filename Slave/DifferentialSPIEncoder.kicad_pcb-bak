@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 12)
+    (drawings 14)
     (tracks 282)
     (zones 0)
     (modules 31)
@@ -453,7 +453,7 @@
     (tags "SSOP 0.65")
     (path /5CF17990)
     (attr smd)
-    (fp_text reference U2 (at 0 3.607 270) (layer B.SilkS)
+    (fp_text reference U2 (at -1 3.607 270) (layer B.SilkS)
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_text value AS5048A (at 0 -3.55 270) (layer B.Fab)
@@ -1298,6 +1298,12 @@
     )
   )
 
+  (gr_text "AS5048A Encoder\nRev 2\n2019-12-02" (at 111 100 90) (layer B.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1)) (justify mirror))
+  )
+  (gr_text https://github.com/Wetmelon/DifferentialSPIEncoder (at 100 125) (layer B.SilkS)
+    (effects (font (size 0.65 0.65) (thickness 0.1)) (justify mirror))
+  )
   (gr_arc (start 123 100) (end 123.999999 102.999999) (angle -143.1301024) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 77 100) (end 76.000001 97.000001) (angle -143.1301024) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 100 100) (end 113.999999 93.000001) (angle -126.869896) (layer Edge.Cuts) (width 0.15))
