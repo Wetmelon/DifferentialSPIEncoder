@@ -1394,12 +1394,12 @@ NoConn ~ 6600 9250
 Text Notes 7250 1200 0    75   ~ 0
 LPF for single-ended signals:\nR = 680ohm\nC = 22pF\nFc = 10.6MHz
 $Comp
-L Device:R_Small R?
+L Device:R_Small R15
 U 1 1 5DE50CE4
 P 2950 4150
-F 0 "R?" H 2891 4196 50  0000 R CNN
+F 0 "R15" H 2891 4196 50  0000 R CNN
 F 1 "120" H 2891 4105 50  0000 R CNN
-F 2 "" H 2950 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2950 4150 50  0001 C CNN
 F 3 "~" H 2950 4150 50  0001 C CNN
 	1    2950 4150
 	-1   0    0    -1  
@@ -1415,12 +1415,12 @@ Connection ~ 2950 4300
 Wire Wire Line
 	2950 4300 3150 4300
 $Comp
-L Device:R_Small R?
+L Device:R_Small R18
 U 1 1 5DE7136E
 P 5750 4150
-F 0 "R?" H 5691 4196 50  0000 R CNN
+F 0 "R18" H 5691 4196 50  0000 R CNN
 F 1 "120" H 5691 4105 50  0000 R CNN
-F 2 "" H 5750 4150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5750 4150 50  0001 C CNN
 F 3 "~" H 5750 4150 50  0001 C CNN
 	1    5750 4150
 	-1   0    0    -1  
@@ -1436,12 +1436,12 @@ Connection ~ 5750 4300
 Wire Wire Line
 	5750 4300 5900 4300
 $Comp
-L Device:R_Small R?
+L Device:R_Small R16
 U 1 1 5DE7E37C
 P 2950 9400
-F 0 "R?" H 2891 9446 50  0000 R CNN
+F 0 "R16" H 2891 9446 50  0000 R CNN
 F 1 "120" H 2891 9355 50  0000 R CNN
-F 2 "" H 2950 9400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2950 9400 50  0001 C CNN
 F 3 "~" H 2950 9400 50  0001 C CNN
 	1    2950 9400
 	-1   0    0    -1  
@@ -1457,12 +1457,12 @@ Connection ~ 2950 9550
 Wire Wire Line
 	2950 9550 3150 9550
 $Comp
-L Device:R_Small R?
+L Device:R_Small R17
 U 1 1 5DE9AF13
 P 5650 9400
-F 0 "R?" H 5591 9446 50  0000 R CNN
+F 0 "R17" H 5591 9446 50  0000 R CNN
 F 1 "120" H 5591 9355 50  0000 R CNN
-F 2 "" H 5650 9400 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5650 9400 50  0001 C CNN
 F 3 "~" H 5650 9400 50  0001 C CNN
 	1    5650 9400
 	-1   0    0    -1  
@@ -1478,10 +1478,10 @@ Connection ~ 5650 9550
 Wire Wire Line
 	5650 9550 5800 9550
 $Comp
-L Device:R R?
+L Device:R R19
 U 1 1 5DEB92EB
 P 6700 6950
-F 0 "R?" H 6770 6996 50  0000 L CNN
+F 0 "R19" H 6770 6996 50  0000 L CNN
 F 1 "10k" H 6770 6905 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6630 6950 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Yageo/AC0805FR-7W1KL?qs=%2Fha2pyFaduielNz2skYJt%252Bm0pGFhQbVC6AWLULl38pezPMTi2KU2wA%3D%3D" H 6700 6950 50  0001 C CNN
@@ -1503,10 +1503,10 @@ Connection ~ 6150 6650
 Wire Wire Line
 	6150 6650 6150 6800
 $Comp
-L Device:R R?
+L Device:R R20
 U 1 1 5DED04F7
 P 6850 1850
-F 0 "R?" H 6920 1896 50  0000 L CNN
+F 0 "R20" H 6920 1896 50  0000 L CNN
 F 1 "10k" H 6920 1805 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6780 1850 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Yageo/AC0805FR-7W1KL?qs=%2Fha2pyFaduielNz2skYJt%252Bm0pGFhQbVC6AWLULl38pezPMTi2KU2wA%3D%3D" H 6850 1850 50  0001 C CNN
