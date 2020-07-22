@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:DifferentialSPIMaster-cache
 EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
@@ -123,19 +122,6 @@ Text Label 5250 2100 0    50   ~ 0
 MISO_1_-
 Text Label 5250 2400 0    50   ~ 0
 MISO_1_+
-$Comp
-L Interface_UART:MAX485E U1
-U 1 1 5CF3CC79
-P 6300 2200
-F 0 "U1" H 6100 2750 50  0000 C CNN
-F 1 "SN65HVD06D" H 6100 2650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 1500 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 6300 2250 50  0001 C CNN
-F 4 "Maxim Integrated" H 6300 2200 50  0001 C CNN "MANUFACTURER"
-F 5 "MAX485E" H 6300 2200 50  0001 C CNN "MFN"
-	1    6300 2200
-	-1   0    0    -1  
-$EndComp
 $Comp
 L Connector:8P8C_Shielded J1
 U 1 1 5CF3CBE0
@@ -264,19 +250,6 @@ CLK_1_-
 Text Label 5300 4300 0    50   ~ 0
 CLK_1_+
 $Comp
-L Interface_UART:MAX485E U3
-U 1 1 5D026421
-P 6300 4100
-F 0 "U3" H 6100 4650 50  0000 C CNN
-F 1 "SN65HVD06D" H 6100 4550 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 3400 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 6300 4150 50  0001 C CNN
-F 4 "Maxim Integrated" H 6300 4100 50  0001 C CNN "MANUFACTURER"
-F 5 "MAX485E" H 6300 4100 50  0001 C CNN "MFN"
-	1    6300 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR08
 U 1 1 5D026428
 P 6300 4750
@@ -399,19 +372,6 @@ MISO_2_+
 Text Label 5250 7200 0    50   ~ 0
 MISO_2_-
 $Comp
-L Interface_UART:MAX485E U2
-U 1 1 5CFD4CEE
-P 6150 7300
-F 0 "U2" H 5950 7850 50  0000 C CNN
-F 1 "SN65HVD06D" H 5950 7750 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6150 6600 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 6150 7350 50  0001 C CNN
-F 4 "Maxim Integrated" H 6150 7300 50  0001 C CNN "MANUFACTURER"
-F 5 "MAX485E" H 6150 7300 50  0001 C CNN "MFN"
-	1    6150 7300
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR0104
 U 1 1 5CFD4CF5
 P 6150 7950
@@ -434,19 +394,6 @@ Text Label 2600 4300 0    50   ~ 0
 CS_1_+
 Text Label 2600 4000 0    50   ~ 0
 CS_1_-
-$Comp
-L Interface_UART:MAX485E U4
-U 1 1 5CFD62E4
-P 3550 4100
-F 0 "U4" H 3350 4650 50  0000 C CNN
-F 1 "SN65HVD06D" H 3350 4550 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 3400 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 3550 4150 50  0001 C CNN
-F 4 "Maxim Integrated" H 3550 4100 50  0001 C CNN "MANUFACTURER"
-F 5 "MAX485E" H 3550 4100 50  0001 C CNN "MFN"
-	1    3550 4100
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GNDD #PWR0106
 U 1 1 5CFD62EB
@@ -610,19 +557,6 @@ CLK_2_-
 Text Label 5200 9550 0    50   ~ 0
 CLK_2_+
 $Comp
-L Interface_UART:MAX485E U6
-U 1 1 5D027A5E
-P 6200 9350
-F 0 "U6" H 6000 9900 50  0000 C CNN
-F 1 "SN65HVD06D" H 6000 9800 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 8650 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 6200 9400 50  0001 C CNN
-F 4 "Maxim Integrated" H 6200 9350 50  0001 C CNN "MANUFACTURER"
-F 5 "MAX485E" H 6200 9350 50  0001 C CNN "MFN"
-	1    6200 9350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GNDD #PWR0113
 U 1 1 5D027A65
 P 6200 10000
@@ -722,19 +656,6 @@ Text Label 2400 9550 0    50   ~ 0
 CS_2_+
 Text Label 2400 9250 0    50   ~ 0
 CS_2_-
-$Comp
-L Interface_UART:MAX485E U5
-U 1 1 5D030238
-P 3550 9350
-F 0 "U5" H 3350 9900 50  0000 C CNN
-F 1 "SN65HVD06D" H 3350 9800 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 8650 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 3550 9400 50  0001 C CNN
-F 4 "Maxim Integrated" H 3550 9350 50  0001 C CNN "MANUFACTURER"
-F 5 "MAX485E" H 3550 9350 50  0001 C CNN "MFN"
-	1    3550 9350
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GNDD #PWR0116
 U 1 1 5D03023F
@@ -1527,4 +1448,59 @@ Wire Wire Line
 Connection ~ 6850 2200
 Wire Wire Line
 	6850 2200 6700 2200
+$Comp
+L Interface_UART:MAX14783ExS U4
+U 1 1 5F1861DC
+P 6300 2200
+F 0 "U4" H 6300 2881 50  0000 C CNN
+F 1 "MAX14783ExS" H 6300 2790 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 1300 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6300 2250 50  0001 C CNN
+	1    6300 2200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX14783ExS U5
+U 1 1 5F188E05
+P 6300 4100
+F 0 "U5" H 6300 4781 50  0000 C CNN
+F 1 "MAX14783ExS" H 6300 4690 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 3200 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6300 4150 50  0001 C CNN
+	1    6300 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX14783ExS U1
+U 1 1 5F189A10
+P 3550 4100
+F 0 "U1" H 3550 4781 50  0000 C CNN
+F 1 "MAX14783ExS" H 3550 4690 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 3200 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 3550 4150 50  0001 C CNN
+	1    3550 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX14783ExS U3
+U 1 1 5F18B868
+P 6200 9350
+F 0 "U3" H 6200 10031 50  0000 C CNN
+F 1 "MAX14783ExS" H 6200 9940 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 8450 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6200 9400 50  0001 C CNN
+	1    6200 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX14783ExS U2
+U 1 1 5F18E086
+P 3550 9350
+F 0 "U2" H 3550 10031 50  0000 C CNN
+F 1 "MAX14783ExS" H 3550 9940 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 8450 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 3550 9400 50  0001 C CNN
+	1    3550 9350
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

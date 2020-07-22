@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:DifferentialSPIEncoder-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -245,42 +244,6 @@ F 1 "+5V" H 2155 1043 50  0000 C CNN
 F 2 "" H 2140 870 50  0001 C CNN
 F 3 "" H 2140 870 50  0001 C CNN
 	1    2140 870 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Interface_UART:MAX485E U3
-U 1 1 5CF18800
-P 2140 1525
-F 0 "U3" H 2400 2100 50  0000 C CNN
-F 1 "SN65HVD06D" H 2450 2000 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2140 825 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 2140 1575 50  0001 C CNN
-F 4 "MAX485ESA+" H 2140 1525 50  0001 C CNN "MFN"
-	1    2140 1525
-	1    0    0    -1  
-$EndComp
-$Comp
-L Interface_UART:MAX485E U4
-U 1 1 5CF188BA
-P 4845 1530
-F 0 "U4" H 5095 2080 50  0000 C CNN
-F 1 "SN65HVD06D" H 5095 1980 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4845 830 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 4845 1580 50  0001 C CNN
-F 4 "MAX485ESA+" H 4845 1530 50  0001 C CNN "MFN"
-	1    4845 1530
-	1    0    0    -1  
-$EndComp
-$Comp
-L Interface_UART:MAX485E U5
-U 1 1 5CF18942
-P 7805 1525
-F 0 "U5" H 8055 2075 50  0000 C CNN
-F 1 "SN65HVD06D" H 8055 1975 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7805 825 50  0001 C CNN
-F 3 "https://www.mouser.com/ProductDetail/Maxim-Integrated/MAX485ESA%2b?qs=sGAEpiMZZMuXae9YOZoWd9EBnNihOkMOJLDcRh71%2FZA%3D" H 7805 1575 50  0001 C CNN
-F 4 "MAX485ESA+" H 7805 1525 50  0001 C CNN "MFN"
-	1    7805 1525
 	1    0    0    -1  
 $EndComp
 Text Label 2990 1425 2    50   ~ 0
@@ -1053,4 +1016,37 @@ Wire Notes Line
 	850  5300 850  2850
 Text Notes 900  2950 0    50   ~ 0
 Magnetic Encoder
+$Comp
+L Interface_UART:MAX14783ExS U2
+U 1 1 5F197056
+P 2140 1525
+F 0 "U2" H 2140 2206 50  0000 C CNN
+F 1 "MAX14783ExS" H 2140 2115 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2140 625 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 2140 1575 50  0001 C CNN
+	1    2140 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX14783ExS U3
+U 1 1 5F19B43F
+P 4845 1530
+F 0 "U3" H 4845 2211 50  0000 C CNN
+F 1 "MAX14783ExS" H 4845 2120 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4845 630 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 4845 1580 50  0001 C CNN
+	1    4845 1530
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX14783ExS U4
+U 1 1 5F19D7B1
+P 7805 1525
+F 0 "U4" H 7805 2206 50  0000 C CNN
+F 1 "MAX14783ExS" H 7805 2115 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7805 625 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 7805 1575 50  0001 C CNN
+	1    7805 1525
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
