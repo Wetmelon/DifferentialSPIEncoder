@@ -1449,10 +1449,10 @@ Connection ~ 6850 2200
 Wire Wire Line
 	6850 2200 6700 2200
 $Comp
-L Interface_UART:MAX14783ExS U?
+L Interface_UART:MAX14783ExS U4
 U 1 1 5F1861DC
 P 6300 2200
-F 0 "U?" H 6300 2881 50  0000 C CNN
+F 0 "U4" H 6300 2881 50  0000 C CNN
 F 1 "MAX14783ExS" H 6300 2790 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 1300 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6300 2250 50  0001 C CNN
@@ -1460,10 +1460,10 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6300 2250 50 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Interface_UART:MAX14783ExS U?
+L Interface_UART:MAX14783ExS U5
 U 1 1 5F188E05
 P 6300 4100
-F 0 "U?" H 6300 4781 50  0000 C CNN
+F 0 "U5" H 6300 4781 50  0000 C CNN
 F 1 "MAX14783ExS" H 6300 4690 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6300 3200 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6300 4150 50  0001 C CNN
@@ -1471,10 +1471,10 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6300 4150 50 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Interface_UART:MAX14783ExS U?
+L Interface_UART:MAX14783ExS U1
 U 1 1 5F189A10
 P 3550 4100
-F 0 "U?" H 3550 4781 50  0000 C CNN
+F 0 "U1" H 3550 4781 50  0000 C CNN
 F 1 "MAX14783ExS" H 3550 4690 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 3200 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 3550 4150 50  0001 C CNN
@@ -1482,10 +1482,10 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 3550 4150 50 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Interface_UART:MAX14783ExS U?
+L Interface_UART:MAX14783ExS U3
 U 1 1 5F18B868
 P 6200 9350
-F 0 "U?" H 6200 10031 50  0000 C CNN
+F 0 "U3" H 6200 10031 50  0000 C CNN
 F 1 "MAX14783ExS" H 6200 9940 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6200 8450 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6200 9400 50  0001 C CNN
@@ -1493,14 +1493,25 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6200 9400 50 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Interface_UART:MAX14783ExS U?
+L Interface_UART:MAX14783ExS U2
 U 1 1 5F18E086
 P 3550 9350
-F 0 "U?" H 3550 10031 50  0000 C CNN
+F 0 "U2" H 3550 10031 50  0000 C CNN
 F 1 "MAX14783ExS" H 3550 9940 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3550 8450 50  0001 C CNN
 F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 3550 9400 50  0001 C CNN
 	1    3550 9350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX14783ExS U?
+U 1 1 5F1CA018
+P 6150 7300
+F 0 "U?" H 6150 7981 50  0000 C CNN
+F 1 "MAX14783ExS" H 6150 7890 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6150 6400 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6150 7350 50  0001 C CNN
+	1    6150 7300
 	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC

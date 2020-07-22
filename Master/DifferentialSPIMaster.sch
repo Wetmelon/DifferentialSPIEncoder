@@ -1503,4 +1503,15 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 3550 9400 50 
 	1    3550 9350
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Interface_UART:MAX14783ExS U6
+U 1 1 5F1CA018
+P 6150 7300
+F 0 "U6" H 6150 7981 50  0000 C CNN
+F 1 "MAX14783ExS" H 6150 7890 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6150 6400 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX14783E.pdf" H 6150 7350 50  0001 C CNN
+	1    6150 7300
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
