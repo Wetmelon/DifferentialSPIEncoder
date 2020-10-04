@@ -39,8 +39,8 @@
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.75,
-        "silk_text_size_v": 0.75,
+        "silk_text_size_h": 0.5,
+        "silk_text_size_v": 0.5,
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": true,
         "zones": {
@@ -376,6 +376,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "621022b3-9098-4c13-9dd3-64efea8ac873",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
