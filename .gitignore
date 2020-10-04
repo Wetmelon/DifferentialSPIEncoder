@@ -1,2 +1,8 @@
 
 *.sch-bak
+
+Master/DifferentialSPIMaster-backups/
+
+Master/_autosave-DifferentialSPIMaster.kicad_sch
+
+*.kicad_pcb-bak
