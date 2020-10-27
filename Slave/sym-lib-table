@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name DifferentialEncoderSlave-rescue)(type Legacy)(uri ${KIPRJMOD}/DifferentialEncoderSlave-rescue.lib)(options "")(descr ""))
+)

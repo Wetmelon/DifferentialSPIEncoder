@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Wetmelon:SN75C1167 U1
+L DifferentialEncoderSlave-rescue:SN75C1167-Wetmelon U1
 U 1 1 5F8ED6E6
 P 5750 2650
 F 0 "U1" H 5250 3650 50  0000 C CNN
