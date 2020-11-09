@@ -1226,31 +1226,12 @@ Text Label 12400 5100 2    50   ~ 0
 GPIO7
 Text Label 12400 5200 2    50   ~ 0
 GPIO8
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J13
-U 1 1 60674364
-P 11500 6900
-F 0 "J13" H 11550 7217 50  0000 C CNN
-F 1 "ISO_GPIO" H 11550 7126 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx08_2x04_P2.50mm_Vertical" H 11500 6900 50  0001 C CNN
-F 3 "~" H 11500 6900 50  0001 C CNN
-	1    11500 6900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10800 6800 11300 6800
 Text Label 10800 6900 0    50   ~ 0
 GND1
-Wire Wire Line
-	10800 6900 11300 6900
 Text Label 10800 7100 0    50   ~ 0
 ISO_STEP_1
-Wire Wire Line
-	10800 7000 11300 7000
 Text Label 10800 7000 0    50   ~ 0
 ISO_DIR_1
-Wire Wire Line
-	10800 7100 11300 7100
 Text Label 12400 6800 2    50   ~ 0
 ISO_UART_TX
 Text Label 12400 6900 2    50   ~ 0
@@ -1500,8 +1481,6 @@ Wire Wire Line
 Wire Wire Line
 	14550 4700 14850 4700
 Wire Wire Line
-	14550 4600 14850 4600
-Wire Wire Line
 	14550 4500 14850 4500
 Wire Wire Line
 	14550 4400 14850 4400
@@ -1511,8 +1490,6 @@ Wire Wire Line
 	14550 4200 14850 4200
 Wire Wire Line
 	14550 4100 14850 4100
-Wire Wire Line
-	14550 4000 14850 4000
 Text Label 14550 5100 0    50   ~ 0
 GNDD
 Text Label 14550 5000 0    50   ~ 0
@@ -1523,8 +1500,6 @@ Text Label 14550 4800 0    50   ~ 0
 M0_A
 Text Label 14550 4700 0    50   ~ 0
 +5V
-Text Label 14550 4600 0    50   ~ 0
-+3.3V
 Text Label 14550 4500 0    50   ~ 0
 GNDD
 Text Label 14550 4400 0    50   ~ 0
@@ -1535,8 +1510,6 @@ Text Label 14550 4200 0    50   ~ 0
 M1_A
 Text Label 14550 4100 0    50   ~ 0
 +5V
-Text Label 14550 4000 0    50   ~ 0
-+3.3V
 $Comp
 L Connector_Generic:Conn_01x12 J4
 U 1 1 5F9A65E3
@@ -1612,10 +1585,6 @@ Wire Wire Line
 	13250 4100 13600 4100
 Text Label 13250 4100 0    50   ~ 0
 GNDD
-Text Label 13250 4000 0    50   ~ 0
-+3.3V
-Wire Wire Line
-	13600 4000 13250 4000
 $Comp
 L Connector_Generic:Conn_01x20 J3
 U 1 1 5F90969D
@@ -1640,14 +1609,10 @@ F 3 "~" H 15050 5600 50  0001 C CNN
 $EndComp
 Text Label 14500 5400 0    50   ~ 0
 +5V
-Text Label 14500 5500 0    50   ~ 0
-+3.3V
 Text Label 14500 5700 0    50   ~ 0
 GNDD
 Wire Wire Line
 	14500 5400 14850 5400
-Wire Wire Line
-	14500 5500 14850 5500
 Wire Wire Line
 	14500 5700 14850 5700
 Text Notes 13000 3750 0    50   ~ 0
@@ -2133,27 +2098,58 @@ $EndComp
 $Comp
 L Wetmelon:RJ45_Shielded_x2 J5
 U 1 1 5FB86974
-P 6550 2550
-F 0 "J5" H 6607 3217 50  0000 C CNN
-F 1 "RJ45_Shielded_x2" H 6607 3126 50  0000 C CNN
-F 2 "Wetmelon:RJ45_RJSSE5380-02" V 6550 2575 50  0001 C CNN
-F 3 "~" V 6550 2575 50  0001 C CNN
-	1    6550 2550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Wetmelon:RJ45_Shielded_x2 J5
-U 2 1 5FB876DB
 P 6550 5200
 F 0 "J5" H 6607 5867 50  0000 C CNN
 F 1 "RJ45_Shielded_x2" H 6607 5776 50  0000 C CNN
 F 2 "Wetmelon:RJ45_RJSSE5380-02" V 6550 5225 50  0001 C CNN
 F 3 "~" V 6550 5225 50  0001 C CNN
-	2    6550 5200
+	1    6550 5200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Wetmelon:RJ45_Shielded_x2 J5
+U 2 1 5FB876DB
+P 6550 2550
+F 0 "J5" H 6607 3217 50  0000 C CNN
+F 1 "RJ45_Shielded_x2" H 6607 3126 50  0000 C CNN
+F 2 "Wetmelon:RJ45_RJSSE5380-02" V 6550 2575 50  0001 C CNN
+F 3 "~" V 6550 2575 50  0001 C CNN
+	2    6550 2550
 	-1   0    0    -1  
 $EndComp
 Text Label 10500 5000 0    50   ~ 0
 ISO_DIR_1
 Text Label 10500 4900 0    50   ~ 0
 ISO_STEP_1
+Wire Wire Line
+	10800 7100 11300 7100
+Wire Wire Line
+	10800 6800 11300 6800
+Wire Wire Line
+	10800 6900 11300 6900
+Wire Wire Line
+	10800 7000 11300 7000
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom J13
+U 1 1 60674364
+P 11600 7000
+F 0 "J13" H 11650 7317 50  0000 C CNN
+F 1 "ISO_GPIO" H 11650 7226 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Nano-Fit_105310-xx08_2x04_P2.50mm_Vertical" H 11600 7000 50  0001 C CNN
+F 3 "~" H 11600 7000 50  0001 C CNN
+	1    11600 7000
+	-1   0    0    1   
+$EndComp
+Text Notes 13250 4000 0    50   ~ 0
++3.3V
+NoConn ~ 13600 4000
+Text Notes 14550 4000 0    50   ~ 0
++3.3V
+Text Notes 14550 4600 0    50   ~ 0
++3.3V
+Text Notes 14500 5500 0    50   ~ 0
++3.3V
+NoConn ~ 14850 4000
+NoConn ~ 14850 4600
+NoConn ~ 14850 5500
 $EndSCHEMATC
