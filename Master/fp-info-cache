@@ -1,4 +1,4 @@
-18998960109102067
+19003776873681643
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83027,9 +83027,30 @@ varistor SIOV
 2
 2
 Wetmelon
+DFN6-2x2
+DFN6-2x2
+
+0
+7
+7
+Wetmelon
 MX120G_12
 
 
+0
+12
+12
+Wetmelon
+Molex_Nano-Fit_105310-xx08_2x04_P2.50mm_Vertical
+Molex Nano-Fit Power Connectors, 105310-xx08, 4 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
+0
+8
+8
+Wetmelon
+Molex_Nano-Fit_105310-xx12_2x06_P2.50mm_Vertical
+Molex Nano-Fit Power Connectors, 105310-xx12, 6 Pins per row (http://www.molex.com/pdm_docs/sd/1053101208_sd.pdf), generated with kicad-footprint-generator
+connector Molex Nano-Fit side entry
 0
 12
 12
