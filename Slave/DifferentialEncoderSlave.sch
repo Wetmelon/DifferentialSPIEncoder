@@ -710,7 +710,7 @@ U 1 1 5FCC53CC
 P 5450 6550
 F 0 "H1" H 5550 6596 50  0000 L CNN
 F 1 "MountingHole" H 5550 6505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 6550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 6550 50  0001 C CNN
 F 3 "~" H 5450 6550 50  0001 C CNN
 	1    5450 6550
 	1    0    0    -1  
@@ -721,7 +721,7 @@ U 1 1 5FCC63AC
 P 5450 6750
 F 0 "H2" H 5550 6796 50  0000 L CNN
 F 1 "MountingHole" H 5550 6705 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 6750 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 6750 50  0001 C CNN
 F 3 "~" H 5450 6750 50  0001 C CNN
 	1    5450 6750
 	1    0    0    -1  
@@ -732,7 +732,7 @@ U 1 1 5FCC6701
 P 5450 6950
 F 0 "H3" H 5550 6996 50  0000 L CNN
 F 1 "MountingHole" H 5550 6905 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 6950 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 6950 50  0001 C CNN
 F 3 "~" H 5450 6950 50  0001 C CNN
 	1    5450 6950
 	1    0    0    -1  
@@ -743,29 +743,29 @@ U 1 1 5FCC692E
 P 5450 7150
 F 0 "H4" H 5550 7196 50  0000 L CNN
 F 1 "MountingHole" H 5550 7105 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 7150 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 7150 50  0001 C CNN
 F 3 "~" H 5450 7150 50  0001 C CNN
 	1    5450 7150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 5FCE01C3
 P 5450 7350
-F 0 "H?" H 5550 7396 50  0000 L CNN
+F 0 "H5" H 5550 7396 50  0000 L CNN
 F 1 "MountingHole" H 5550 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 7350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 7350 50  0001 C CNN
 F 3 "~" H 5450 7350 50  0001 C CNN
 	1    5450 7350
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 5FCE01C9
 P 5450 7550
-F 0 "H?" H 5550 7596 50  0000 L CNN
+F 0 "H6" H 5550 7596 50  0000 L CNN
 F 1 "MountingHole" H 5550 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 7550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 5450 7550 50  0001 C CNN
 F 3 "~" H 5450 7550 50  0001 C CNN
 	1    5450 7550
 	1    0    0    -1  
