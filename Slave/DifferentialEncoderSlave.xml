@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\pfgue\Documents\GitHub\DifferentialSPIEncoder\Slave\DifferentialEncoderSlave.sch</source>
+    <date>12/17/2020 1:30:28 AM</date>
+    <tool>Eeschema (5.1.8)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Differential Encoder</title>
+        <company>ODrive Robotics</company>
+        <rev>1</rev>
+        <date>2020-10-20</date>
+        <source>DifferentialEncoderSlave.sch</source>
+        <comment number="1" value="Wetmelon"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>SN75C1167</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <libsource lib="DifferentialEncoderSlave-rescue" part="SN75C1167-Wetmelon" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8ED6E6</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8EEB96</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8F0858</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ45_Shielded</value>
+      <footprint>Wetmelon:RJLSE4118101</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="RJ45_Shielded" description="RJ connector, 8P8C (8 positions 8 connected), Shielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8F4840</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F921DB0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>MA730</value>
+      <footprint>Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm</footprint>
+      <datasheet>https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf</datasheet>
+      <libsource lib="Sensor_Magnetic" part="MA730" description="Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F90AD0B</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F97C619</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F987ED4</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F989C4E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EB3D7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9DBB5B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9BDDF5</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9AFA8C</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A8CF4</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9A6B4C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F91ADFE</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LDFM33PVR</value>
+      <footprint>Wetmelon:DFN6-2x2</footprint>
+      <libsource lib="DifferentialEncoderSlave-rescue" part="LDFM33PVR-Wetmelon" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9185D3</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC53CC</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC63AC</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC6701</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCC692E</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE01C3</tstamp>
+    </comp>
+    <comp ref="H6">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_DIN965</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCE01C9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="8P8C_Shielded">
+      <aliases>
+        <alias>RJ31_Shielded</alias>
+        <alias>RJ32_Shielded</alias>
+        <alias>RJ33_Shielded</alias>
+        <alias>RJ34_Shielded</alias>
+        <alias>RJ35_Shielded</alias>
+        <alias>RJ41_Shielded</alias>
+        <alias>RJ45_Shielded</alias>
+        <alias>RJ49_Shielded</alias>
+        <alias>RJ61_Shielded</alias>
+      </aliases>
+      <description>RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61, Shielded</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>8P8C*</fp>
+        <fp>RJ31*</fp>
+        <fp>RJ32*</fp>
+        <fp>RJ33*</fp>
+        <fp>RJ34*</fp>
+        <fp>RJ35*</fp>
+        <fp>RJ41*</fp>
+        <fp>RJ45*</fp>
+        <fp>RJ49*</fp>
+        <fp>RJ61*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">8P8C_Shielded</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="SH" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DifferentialEncoderSlave-rescue" part="LDFM33PVR-Wetmelon">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDFM33PVR-Wetmelon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Output" type="power_out"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="PG" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="EN" type="input"/>
+        <pin num="6" name="Input" type="power_in"/>
+        <pin num="Pad" name="Pad" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DifferentialEncoderSlave-rescue" part="SN75C1167-Wetmelon">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN75C1167-Wetmelon</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1B" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1R" type="output"/>
+        <pin num="4" name="~RE" type="input"/>
+        <pin num="5" name="2R" type="output"/>
+        <pin num="6" name="2A" type="input"/>
+        <pin num="7" name="2B" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="2D" type="input"/>
+        <pin num="10" name="2Y" type="input"/>
+        <pin num="11" name="2Z" type="input"/>
+        <pin num="12" name="DE" type="input"/>
+        <pin num="13" name="1Z" type="input"/>
+        <pin num="14" name="1Y" type="input"/>
+        <pin num="15" name="1D" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Sensor_Magnetic" part="MA730">
+      <description>Magnetic rotary angle sensor, 14-bit, SPI interface, ABZ, PWM, QFN-16</description>
+      <docs>https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf</docs>
+      <footprints>
+        <fp>QFN*3x3mm*P0.5mm*EP1.8x1.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MA730</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.8x1.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SSD" type="output"/>
+        <pin num="2" name="A" type="output"/>
+        <pin num="3" name="Z" type="output"/>
+        <pin num="4" name="MOSI" type="input"/>
+        <pin num="5" name="~CS" type="input"/>
+        <pin num="6" name="B" type="output"/>
+        <pin num="7" name="MISO" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="PWM" type="output"/>
+        <pin num="10" name="TEST" type="passive"/>
+        <pin num="11" name="MGL" type="output"/>
+        <pin num="12" name="SCLK" type="input"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="SSCK" type="input"/>
+        <pin num="16" name="MGH" type="output"/>
+        <pin num="17" name="PAD" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="DifferentialEncoderSlave-rescue">
+      <uri>C:\Users\pfgue\Documents\GitHub\DifferentialSPIEncoder\Slave/DifferentialEncoderSlave-rescue.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Sensor_Magnetic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Sensor_Magnetic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GNDD">
+      <node ref="J1" pin="8"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U3" pin="Pad"/>
+      <node ref="U3" pin="4"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J1" pin="SH"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="3" name="/CLK-">
+      <node ref="U1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="4" name="/CLK+">
+      <node ref="J1" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="5" name="/CSn-">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="6" name="/CSn+">
+      <node ref="U1" pin="6"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="7" name="/MISO_2D">
+      <node ref="C5" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="8" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="9" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="10" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="11" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="13" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="15" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="16" name="+3V3">
+      <node ref="U2" pin="13"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="17" name="Net-(U3-Pad3)">
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="18" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="19" name="/CLK">
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="20" name="/MISO">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="21" name="Net-(U3-Pad2)">
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="22" name="/CLK_1R">
+      <node ref="U1" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="23" name="/CSn_2R">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="24" name="/CSn">
+      <node ref="C4" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="25" name="Net-(R2-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="27" name="/MISO+">
+      <node ref="J1" pin="5"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="28" name="/MISO-">
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="30" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="31" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="32" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+  </nets>
+</export>
