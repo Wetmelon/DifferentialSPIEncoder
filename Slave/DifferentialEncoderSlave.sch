@@ -754,7 +754,7 @@ U 1 1 5FCE01C3
 P 5450 7350
 F 0 "H5" H 5550 7396 50  0000 L CNN
 F 1 "MountingHole" H 5550 7305 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5450 7350 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 7350 50  0001 C CNN
 F 3 "~" H 5450 7350 50  0001 C CNN
 	1    5450 7350
 	1    0    0    -1  
@@ -765,7 +765,7 @@ U 1 1 5FCE01C9
 P 5450 7550
 F 0 "H6" H 5550 7596 50  0000 L CNN
 F 1 "MountingHole" H 5550 7505 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3mm" H 5450 7550 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965" H 5450 7550 50  0001 C CNN
 F 3 "~" H 5450 7550 50  0001 C CNN
 	1    5450 7550
 	1    0    0    -1  
