@@ -1,4 +1,4 @@
-19003776873681643
+19042098400773581
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83034,6 +83034,13 @@ DFN6-2x2
 7
 7
 Wetmelon
+LDFM33PVR
+
+
+0
+7
+7
+Wetmelon
 MX120G_12
 
 
@@ -83068,6 +83075,13 @@ RJ45 Amphenol
 0
 18
 17
+Wetmelon
+RJLSE4118101
+
+
+0
+10
+9
 Wetmelon
 Teensy_3.2+4
 28-lead dip package, row spacing 15.24 mm (600 mils)
