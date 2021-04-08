@@ -58,13 +58,13 @@ Wire Wire Line
 Text Label 14850 7100 2    50   ~ 0
 GNDD
 Text Label 13700 7100 0    50   ~ 0
-+5V
++12V
 Wire Wire Line
 	14850 6550 14550 6550
 Text Label 14850 6550 2    50   ~ 0
 GNDD
 Text Label 13700 6550 0    50   ~ 0
-+5V
++12V
 Wire Notes Line
 	5500 650  5500 6200
 $Comp
