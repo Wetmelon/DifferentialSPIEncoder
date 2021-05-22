@@ -209,59 +209,6 @@ F 3 "" H 8650 3400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8650 3400 8650 3300
-$Comp
-L power:+3.3V #PWR09
-U 1 1 5F91FEFD
-P 9000 4400
-F 0 "#PWR09" H 9000 4250 50  0001 C CNN
-F 1 "+3.3V" H 9015 4573 50  0000 C CNN
-F 2 "" H 9000 4400 50  0001 C CNN
-F 3 "" H 9000 4400 50  0001 C CNN
-	1    9000 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8850 4700 9000 4700
-$Comp
-L Device:C_Small C2
-U 1 1 5F921DB0
-P 9000 4950
-F 0 "C2" H 9092 4996 50  0000 L CNN
-F 1 "4.7uF" H 9092 4905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9000 4950 50  0001 C CNN
-F 3 "~" H 9000 4950 50  0001 C CNN
-	1    9000 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 4850 9000 4700
-Connection ~ 9000 4700
-Wire Wire Line
-	9000 5050 9000 5150
-Wire Wire Line
-	8400 5000 8400 5250
-$Comp
-L power:GNDD #PWR07
-U 1 1 5F9271FA
-P 8400 5250
-F 0 "#PWR07" H 8400 5000 50  0001 C CNN
-F 1 "GNDD" H 8404 5095 50  0001 C CNN
-F 2 "" H 8400 5250 50  0001 C CNN
-F 3 "" H 8400 5250 50  0001 C CNN
-	1    8400 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR010
-U 1 1 5F927847
-P 9000 5150
-F 0 "#PWR010" H 9000 4900 50  0001 C CNN
-F 1 "GNDD" H 9004 4995 50  0001 C CNN
-F 2 "" H 9000 5150 50  0001 C CNN
-F 3 "" H 9000 5150 50  0001 C CNN
-	1    9000 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6550 2950 6150 2950
 Wire Wire Line
@@ -278,91 +225,10 @@ Text Label 6550 2450 2    50   ~ 0
 CLK-
 Text Label 6550 2350 2    50   ~ 0
 CLK+
-$Comp
-L Sensor_Magnetic:MA730 U2
-U 1 1 5F90AD0B
-P 6200 4850
-F 0 "U2" H 6400 5400 50  0000 C CNN
-F 1 "MA730" H 6400 5300 50  0000 C CNN
-F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm" H 6200 3900 50  0001 C CNN
-F 3 "https://www.monolithicpower.com/pub/media/document/m/a/ma730_r1.01.pdf" H 4050 6450 50  0001 C CNN
-	1    6200 4850
-	1    0    0    -1  
-$EndComp
-Text Label 5400 4650 0    50   ~ 0
-MISO
-Text Label 5400 4750 0    50   ~ 0
-CLK
-Text Label 5400 4850 0    50   ~ 0
-CSn
-Wire Wire Line
-	5400 4650 5700 4650
-Wire Wire Line
-	5400 4750 5700 4750
-Wire Wire Line
-	5400 4850 5700 4850
-NoConn ~ 5700 5050
-NoConn ~ 5700 5150
-Wire Wire Line
-	6100 5550 6100 5450
-Wire Wire Line
-	6100 5450 6200 5450
-Wire Wire Line
-	6200 5450 6200 5350
-Connection ~ 6100 5450
-Wire Wire Line
-	6100 5450 6100 5350
-Wire Wire Line
-	6200 5450 6300 5450
-Wire Wire Line
-	6300 5450 6300 5350
-Connection ~ 6200 5450
-NoConn ~ 6700 4950
-NoConn ~ 6700 5050
-NoConn ~ 6700 5150
-NoConn ~ 6700 4550
-NoConn ~ 6700 4650
-NoConn ~ 6700 4750
-$Comp
-L power:+3.3V #PWR04
-U 1 1 5F915128
-P 6200 4250
-F 0 "#PWR04" H 6200 4100 50  0001 C CNN
-F 1 "+3.3V" H 6215 4423 50  0000 C CNN
-F 2 "" H 6200 4250 50  0001 C CNN
-F 3 "" H 6200 4250 50  0001 C CNN
-	1    6200 4250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6200 4250 6200 4350
-$Comp
-L power:GNDD #PWR03
-U 1 1 5F927C69
-P 6100 5550
-F 0 "#PWR03" H 6100 5300 50  0001 C CNN
-F 1 "GNDD" H 6104 5395 50  0001 C CNN
-F 2 "" H 6100 5550 50  0001 C CNN
-F 3 "" H 6100 5550 50  0001 C CNN
-	1    6100 5550
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	4550 3850 7350 3850
-Wire Notes Line
-	7350 3850 7350 5750
-Wire Notes Line
-	7350 5750 4550 5750
 Wire Notes Line
 	4550 5750 4550 3850
-Text Notes 4600 5700 0    50   ~ 0
-Internal pull-up on CSn\nInternal pull-down on MOSI\nInternal pull-down on MISO\nInternal pull-down on CLK
 Text Notes 4600 4000 0    50   ~ 0
-16-bit Magnetic Encoder
-Wire Wire Line
-	9000 4400 9000 4700
-NoConn ~ 8850 4600
-NoConn ~ 5700 4550
+18-bit Magnetic Encoder
 Wire Notes Line
 	4550 1000 7350 1000
 Wire Notes Line
@@ -455,16 +321,6 @@ Wire Notes Line
 	7450 3750 7450 1000
 Text Notes 7550 1250 0    50   ~ 0
 RJ45 Connector with\nTermination resistors (external)
-Wire Notes Line
-	7450 3850 7450 5750
-Wire Notes Line
-	7450 5750 9800 5750
-Wire Notes Line
-	9800 5750 9800 3850
-Wire Notes Line
-	9800 3850 7450 3850
-Text Notes 7550 4000 0    50   ~ 0
-3.3V LDO
 Wire Wire Line
 	4950 2650 5350 2650
 Text Label 4950 2650 0    50   ~ 0
@@ -644,66 +500,6 @@ F 3 "" H 7050 1300 50  0001 C CNN
 	1    7050 1300
 	-1   0    0    -1  
 $EndComp
-Text Notes 8750 5450 0    50   ~ 0
-Placed close to both\nLDO and MA702
-$Comp
-L power:GNDD #PWR06
-U 1 1 5F92626B
-P 7850 5150
-F 0 "#PWR06" H 7850 4900 50  0001 C CNN
-F 1 "GNDD" H 7854 4995 50  0001 C CNN
-F 2 "" H 7850 5150 50  0001 C CNN
-F 3 "" H 7850 5150 50  0001 C CNN
-	1    7850 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR05
-U 1 1 5F91F9DE
-P 7850 4400
-F 0 "#PWR05" H 7850 4250 50  0001 C CNN
-F 1 "+5V" H 7865 4573 50  0000 C CNN
-F 2 "" H 7850 4400 50  0001 C CNN
-F 3 "" H 7850 4400 50  0001 C CNN
-	1    7850 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7850 4600 7850 4400
-Wire Wire Line
-	7850 5050 7850 5150
-Wire Wire Line
-	7850 4700 7850 4850
-Connection ~ 7850 4700
-Wire Wire Line
-	7850 4600 7850 4700
-$Comp
-L Device:C_Small C1
-U 1 1 5F91ADFE
-P 7850 4950
-F 0 "C1" H 7941 4996 50  0000 L CNN
-F 1 "1uF" H 7941 4905 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 7850 4950 50  0001 C CNN
-F 3 "~" H 7850 4950 50  0001 C CNN
-	1    7850 4950
-	-1   0    0    -1  
-$EndComp
-Connection ~ 7850 4600
-Wire Wire Line
-	7950 4700 7850 4700
-Wire Wire Line
-	7950 4600 7850 4600
-$Comp
-L DifferentialEncoderSlave-rescue:LDFM33PVR-Wetmelon U3
-U 1 1 5F9185D3
-P 8400 4700
-F 0 "U3" H 8400 5065 50  0000 C CNN
-F 1 "LDFM33PVR" H 8400 4974 50  0000 C CNN
-F 2 "Wetmelon:DFN6-2x2" H 8500 5050 50  0001 C CNN
-F 3 "" H 8500 5050 50  0001 C CNN
-	1    8400 4700
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5FCC53CC
@@ -770,4 +566,163 @@ F 3 "~" H 5450 7550 50  0001 C CNN
 	1    5450 7550
 	1    0    0    -1  
 $EndComp
+Text Label 7250 4950 2    50   ~ 0
+CSn
+Text Label 7250 4850 2    50   ~ 0
+CLK
+Text Label 7250 4750 2    50   ~ 0
+MISO
+$Comp
+L Wetmelon:AEAT-9922 U2
+U 1 1 60AA531A
+P 6200 4750
+F 0 "U2" H 6600 5300 50  0000 L CNN
+F 1 "AEAT-9922" H 6000 4850 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" H 6650 5150 50  0001 C CNN
+F 3 "" H 6650 5150 50  0001 C CNN
+	1    6200 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 60AD6AFD
+P 5350 4500
+F 0 "C2" H 5258 4454 50  0000 R CNN
+F 1 "100nF" H 5258 4545 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5350 4500 50  0001 C CNN
+F 3 "~" H 5350 4500 50  0001 C CNN
+	1    5350 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 60AE9836
+P 4900 5000
+F 0 "C1" H 4808 4954 50  0000 R CNN
+F 1 "100nF" H 4808 5045 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4900 5000 50  0001 C CNN
+F 3 "~" H 4900 5000 50  0001 C CNN
+	1    4900 5000
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	5350 4600 5350 4650
+Wire Wire Line
+	5350 4650 5450 4650
+Wire Wire Line
+	5350 4400 5350 4350
+Wire Wire Line
+	5350 4350 5450 4350
+Wire Wire Line
+	4900 4900 4900 4850
+Wire Wire Line
+	4900 4850 5450 4850
+Wire Wire Line
+	4900 5100 4900 5150
+Wire Wire Line
+	5350 4250 5350 4350
+Connection ~ 5350 4350
+Connection ~ 4900 4850
+Wire Wire Line
+	4900 5150 5450 5150
+Wire Wire Line
+	4900 4800 4900 4850
+$Comp
+L power:GNDD #PWR04
+U 1 1 60B67E26
+P 4900 5200
+F 0 "#PWR04" H 4900 4950 50  0001 C CNN
+F 1 "GNDD" H 4904 5045 50  0001 C CNN
+F 2 "" H 4900 5200 50  0001 C CNN
+F 3 "" H 4900 5200 50  0001 C CNN
+	1    4900 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5200 4900 5150
+Connection ~ 4900 5150
+$Comp
+L power:GNDD #PWR06
+U 1 1 60B6E43B
+P 5350 4700
+F 0 "#PWR06" H 5350 4450 50  0001 C CNN
+F 1 "GNDD" H 5354 4545 50  0001 C CNN
+F 2 "" H 5350 4700 50  0001 C CNN
+F 3 "" H 5350 4700 50  0001 C CNN
+	1    5350 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 4700 5350 4650
+Connection ~ 5350 4650
+$Comp
+L power:GNDD #PWR07
+U 1 1 60B76952
+P 7050 5250
+F 0 "#PWR07" H 7050 5000 50  0001 C CNN
+F 1 "GNDD" H 7054 5095 50  0001 C CNN
+F 2 "" H 7050 5250 50  0001 C CNN
+F 3 "" H 7050 5250 50  0001 C CNN
+	1    7050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 5250 7050 5150
+Wire Wire Line
+	7050 5150 6900 5150
+$Comp
+L power:+5V #PWR05
+U 1 1 60B7B2D0
+P 5350 4250
+F 0 "#PWR05" H 5350 4100 50  0001 C CNN
+F 1 "+5V" H 5365 4423 50  0000 C CNN
+F 2 "" H 5350 4250 50  0001 C CNN
+F 3 "" H 5350 4250 50  0001 C CNN
+	1    5350 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 60B7BABE
+P 4900 4800
+F 0 "#PWR03" H 4900 4650 50  0001 C CNN
+F 1 "+5V" H 4915 4973 50  0000 C CNN
+F 2 "" H 4900 4800 50  0001 C CNN
+F 3 "" H 4900 4800 50  0001 C CNN
+	1    4900 4800
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	7950 5750 4550 5750
+Wire Notes Line
+	7950 3850 7950 5750
+Wire Notes Line
+	4550 3850 7950 3850
+Wire Wire Line
+	6900 4750 7300 4750
+Wire Wire Line
+	6900 4850 7300 4850
+Wire Wire Line
+	7300 4950 6900 4950
+$Comp
+L Connector_Generic:Conn_01x05 J2
+U 1 1 60BAA921
+P 7500 4950
+F 0 "J2" H 7580 4992 50  0000 L CNN
+F 1 "Debug" H 7580 4901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 7500 4950 50  0001 C CNN
+F 3 "~" H 7500 4950 50  0001 C CNN
+	1    7500 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 5050 7300 5050
+Text Label 7250 5050 2    50   ~ 0
++5V
+Wire Wire Line
+	7050 5150 7300 5150
+Connection ~ 7050 5150
+NoConn ~ 6900 4400
+NoConn ~ 6900 4500
+NoConn ~ 6900 4600
 $EndSCHEMATC
