@@ -11,3 +11,7 @@ Slave/Gerbers/
 
 *_autosave*
 Slave/~$RJLSE4x1xx.SLDPRT
+
+Slave/RS485-backups/
+
+Slave/DifferentialEncoderSlave-backups/
